@@ -1,0 +1,505 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Mathiyalagan - My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <nav>
+
+        <h2>My Portfolio</h2>
+
+        <div>
+
+            <button onclick="showSlide(0)">
+                Home
+            </button>
+
+            <button onclick="showSlide(1)">
+                About
+            </button>
+
+            <button onclick="showSlide(2)">
+                Skills
+            </button>
+
+            <button onclick="showSlide(3)">
+                Projects
+            </button>
+
+            <button onclick="showSlide(4)">
+                Contact
+            </button>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =========================
+         SLIDER
+    ========================== -->
+
+    <div class="slider">
+
+
+        <!-- =========================
+             HOME
+        ========================== -->
+
+        <section class="slide home active">
+
+            <h1>
+                Hello, I'm Mathiyalagan 👋
+            </h1>
+
+            <p>
+                Web Designer | Web Developer | Student
+            </p>
+
+            <button
+                class="next"
+                onclick="nextSlide()">
+
+                Next →
+
+            </button>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section class="slide about">
+
+            <h1>
+                About Me
+            </h1>
+
+            <div class="about-box">
+
+                <h2>
+                    Hi, I'm Mathiyalagan
+                </h2>
+
+                <p>
+                    I am a student interested in
+                    web designing and web development.
+                </p>
+
+                <p>
+                    I enjoy creating attractive and
+                    responsive websites using HTML,
+                    CSS, JavaScript and Bootstrap.
+                </p>
+
+                <p>
+                    My goal is to improve my
+                    programming skills and become
+                    a professional web developer.
+                </p>
+
+            </div>
+
+            <button
+                class="previous"
+                onclick="previousSlide()">
+
+                ← Previous
+
+            </button>
+
+            <button
+                class="next"
+                onclick="nextSlide()">
+
+                Next →
+
+            </button>
+
+        </section>
+
+
+        <!-- =========================
+             SKILLS
+        ========================== -->
+
+        <section class="slide skills">
+
+            <h1>
+                My Skills
+            </h1>
+
+            <div class="skill-container">
+
+
+                <!-- HTML -->
+
+                <div class="skill">
+
+                    <h2>
+                        HTML
+                    </h2>
+
+                    <p>
+                        Creating webpage structure
+                        using HTML5.
+                    </p>
+
+                </div>
+
+
+                <!-- CSS -->
+
+                <div class="skill">
+
+                    <h2>
+                        CSS
+                    </h2>
+
+                    <p>
+                        Designing attractive and
+                        responsive websites.
+                    </p>
+
+                </div>
+
+
+                <!-- JavaScript -->
+
+                <div class="skill">
+
+                    <h2>
+                        JavaScript
+                    </h2>
+
+                    <p>
+                        Adding interactivity and
+                        functionality to websites.
+                    </p>
+
+                </div>
+
+
+                <!-- Bootstrap -->
+
+                <div class="skill">
+
+                    <h2>
+                        Bootstrap
+                    </h2>
+
+                    <p>
+                        Creating responsive layouts
+                        using Bootstrap.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="previous"
+                onclick="previousSlide()">
+
+                ← Previous
+
+            </button>
+
+            <button
+                class="next"
+                onclick="nextSlide()">
+
+                Next →
+
+            </button>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+
+        <section class="slide projects">
+
+            <h1>
+                My Projects
+            </h1>
+
+
+            <div class="project-container">
+
+
+                <!-- =========================
+                     WEEK 1
+                ========================== -->
+
+                <div class="project">
+
+                    <h2>
+                        📅 Week 1
+                    </h2>
+
+                    <p>
+                        EYEBALL MOMENT
+                    </p>
+
+
+                    <div class="project-buttons">
+
+
+                        <!-- GitHub Deployment -->
+
+                    
+
+
+                        <!-- GitHub Repository -->
+
+                        <a
+                            href="https://bmathiyalagan56-source.github.io/ball-Movement/"
+                            target="_blank"
+                            class="github-btn github">
+
+                            💻 GitHub
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =========================
+                     WEEK 2
+                ========================== -->
+
+                <div class="project">
+
+                    <h2>
+                        📅 Week 2
+                    </h2>
+
+                    <p>
+                        PACHMAN
+                    </p>
+
+
+                    <div class="project-buttons">
+
+
+                        <!-- GitHub Deployment -->
+
+
+
+                        <!-- GitHub Repository -->
+
+                        <a
+                            href="https://github.com/mathiyalagan/week2"
+                            target="_blank"
+                            class="github-btn github">
+
+                            💻 GitHub
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =========================
+                     WEEK 3
+                ========================== -->
+
+                <div class="project">
+
+                    <h2>
+                        📅 Week 3
+                    </h2>
+
+                    <p>
+                        WORDCOUNT
+                    </p>
+
+
+                    <div class="project-buttons">
+
+
+                        <!-- GitHub Deployment -->
+
+
+                        <!-- GitHub Repository -->
+
+                        <a
+                            href="https://github.com/mathiyalagan/week3"
+                            target="_blank"
+                            class="github-btn github">
+
+                            💻 GitHub
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+             <div class="project">
+
+                    <h2>
+                        📅 Week 4
+                    </h2>
+
+                    <p>
+                         EYE BALL MOMENT
+                    </p>
+
+
+                    <div class="project-buttons">
+
+
+                        <!-- GitHub Deployment -->
+
+                        <a
+                            href="/"
+                            target="_blank"
+                            class="github-btn">
+
+                        
+
+                        </a>
+
+
+                        <!-- GitHub Repository -->
+
+                        <a
+                            href="https://github.com/mathiyalagan/week3"
+                            target="_blank"
+                            class="github-btn github">
+
+                            💻 GitHub
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+            <!-- Navigation -->
+
+            <button
+                class="previous"
+                onclick="previousSlide()">
+
+                ← Previous
+
+            </button>
+
+            <button
+                class="next"
+                onclick="nextSlide()">
+
+                Next →
+
+            </button>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section class="slide contact">
+
+            <h1>
+                Contact Me
+            </h1>
+
+
+            <form id="contactForm">
+
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+
+
+                <button type="submit">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+
+            <button
+                class="previous"
+                onclick="previousSlide()">
+
+                ← Previous
+
+            </button>
+
+        </section>
+
+    </div>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
